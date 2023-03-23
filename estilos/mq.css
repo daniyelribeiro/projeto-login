@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*  Typical Deice Breakpoint
+----------------------------
+Pq Telas:          até 600px
+Celular :     de 601 a 768px
+Tablet  :     de 769 a 992px
+Desktop :    de 993 a 1200px
+Gd Telas:    acima de 1200px
+*/
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    #login {
+        width: 80vw;
+    }
+    #login #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #login #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+@media screen and (min-width: 993px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    #login {
+        width: 950px;
+    }
+    #login #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    #login #formulario {
+        float: right;
+        width: 50%;
+    }
+    
+}

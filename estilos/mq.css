@@ -26,6 +26,12 @@ Gd Telas:    acima de 1200px
         float: right;
         width: 70%;
     }
+    #formulario h1 {
+        font-size: 1.7em;
+    }
+    #formulario p {
+        font-size: 1.2em;
+    }
 }
 @media screen and (min-width: 993px) {
     body {
@@ -35,13 +41,19 @@ Gd Telas:    acima de 1200px
         width: 950px;
     }
     #login #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #login #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    #formulario h1 {
+        font-size: 2em;
+    }
+    #formulario p {
+        font-size: 1.3em;
     }
     
 }

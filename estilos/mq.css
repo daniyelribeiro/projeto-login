@@ -15,7 +15,8 @@ Gd Telas:    acima de 1200px
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     #login {
-        width: 90vw;
+        width: 80vw;
+        height: 280px;
     }
     #login #imagem {
         float: left;
@@ -33,12 +34,13 @@ Gd Telas:    acima de 1200px
         font-size: 1.2em;
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 950px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     #login {
         width: 950px;
+        height: 300px;
     }
     #login #imagem {
         float: right;
@@ -48,12 +50,8 @@ Gd Telas:    acima de 1200px
     #login #formulario {
         float: left;
         width: 50%;
+        padding-top: 26px;
     }
-    #formulario h1 {
-        font-size: 2em;
-    }
-    #formulario p {
-        font-size: 1.2em;
-    }
+    
     
 }
